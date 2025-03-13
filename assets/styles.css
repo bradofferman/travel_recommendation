@@ -1,0 +1,257 @@
+body, html {
+    font-family: "Roboto Light", Arial, sans-serif;
+    background-image: url('./mybackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.navbar-items {
+    display: flex;
+    font-weight: bold;
+}
+
+.hidden-search {
+    display: flex;
+    visibility: hidden;
+}
+
+#company {
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.search-container {
+    float: right;
+    padding: 14px 16px;
+}
+
+#searchDestination {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.btn {
+    color: lightseagreen;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.btn:hover {
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+
+
+#home {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+
+.information {
+    width: 400px;
+    color: white;
+    font-weight: bolder;
+    display: block;
+    margin: 25px 25px;
+}
+
+.information-title {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.information-body{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.btnBook{
+    color: white;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btnBook:hover {
+    color: lightseagreen;
+    background-color: white;
+}
+
+#result{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 450px;
+    height: 100px;
+}
+
+#result img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+#result h2 {
+    margin: 20px;
+}
+
+#result p {
+    margin: 20px;
+    color: rgb(158, 147, 147);
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.btnVisit {
+    margin: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    font-size: medium;
+}
+
+.search-result {
+    margin-bottom: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact {
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 100px 25px;
+}
+
+.contact p {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.contact-form {
+    width: 450px;
+    height: 500px;
+    background-color: rgba(41, 47, 46, 0.3);
+    margin: 200px 50px;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-input {
+    width: 450px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#message {
+    height: 60px;
+}
+
+.contact-input::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.about-us {
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: block;
+    margin: 10px 100px;
+}
+
+.about-us-desc{
+    font-size: 24px;
+    font-weight: normal;
+    background-color: rgba(41, 47, 46, 0.3);
+    padding: 20px;
+}
+
+.team-details{
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    margin: 10px 100px;
+}
+
+.team-details-desc {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 100px;
+}
+
+#team-title {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.team-card{
+    background-color: rgba(41, 47, 46, 0.3);
+    width: 300px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.team-card i {
+    font-size: 40px;
+}
+
+.team-card p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
